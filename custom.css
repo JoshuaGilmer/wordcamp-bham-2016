@@ -1,4 +1,9 @@
 .site-header{
-	background-size:cover;
-	background-position:50%;
+	background-size:cover !important;
+	background-position:50% !important;
+	height:;
+}
+
+.site-header .home-link{
+	min-height:440px;
 }
