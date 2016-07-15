@@ -3,7 +3,10 @@
 	background-position:50% !important;
 	position:relative !important;
 }
-.site-header:after{
+.site-header a{
+	position:relative;
+}
+.site-header a:after{
 	content:' ';
 	width:  270px;
 	height: 360px;
@@ -11,8 +14,8 @@
 	background-position:50%;
 	background-size:cover;
 	position:absolute;
-	right:10%;
-	top:60px;
+	right:5px;
+	top:55px;
 }
 
 .site-header .home-link{
@@ -24,5 +27,9 @@
 }
 
 .site-description{
-	color:#fafafa;
+	color:#fafafa !important;
+}
+
+.navbar{
+	background-color:#489a96;
 }
