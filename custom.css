@@ -14,8 +14,8 @@
 	background-position:50%;
 	background-size:cover;
 	position:absolute;
-	right:5px;
-	top:55px;
+	right:64px;
+	top:32px;
 }
 
 .site-header .home-link{
@@ -32,4 +32,15 @@
 
 .navbar{
 	background-color:#489a96;
+}
+
+.nav-menu li a{
+	color:#fafafa;
+	-webkit-transition: all .22s ease-in-out;
+	-o-transition: all .22s ease-in-out;
+	transition: all .22s ease-in-out;
+}
+.nav-menu li a:hover{
+	background-color: #c7dc67;
+	color: #489a96;
 }
