@@ -1,6 +1,11 @@
 body{
 	color:#576473;
 }
+a{
+	-webkit-transition: all .22s ease-in-out;
+	-o-transition: all .22s ease-in-out;
+	transition: all .22s ease-in-out;
+}
 
 .site-header{
 	background-size:cover !important;
@@ -49,6 +54,10 @@ body{
 	color: #489a96;
 }
 
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a{
+	color:#c7dc67;
+}
+
 .entry-meta a, a:visited{
 	color: #489a96;
 }
@@ -66,4 +75,18 @@ h1.entry-title a{
 }
 h1.entry-title a:hover{
 	color:#c7dc67;
+}
+
+.site-footer .sidebar-container{
+	background-color:#576473;
+}
+
+.site-footer .widget a{
+	color: #c7dc67;
+}
+.site-info{
+	background-color:#489a96;
+}
+.site-info a{
+	color:#fafafa;
 }
