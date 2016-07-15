@@ -3,10 +3,10 @@
 	background-position:50% !important;
 	position:relative !important;
 }
-.site-header a{
+.site-header > a.home-link{
 	position:relative;
 }
-.site-header a:after{
+.site-header > a.home-link:after{
 	content:' ';
 	width:  270px;
 	height: 360px;
