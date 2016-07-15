@@ -91,7 +91,7 @@ h1.entry-title a:hover{
 	color:#489a96;
 	text-decoration:none;
 }
-.entry-content a, .comment-content a{
+.entry-content a:hover, .comment-content a:hover{
 	color:#c54d59;
 }
 
