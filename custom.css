@@ -6,9 +6,13 @@ a{
 	-o-transition: all .22s ease-in-out;
 	transition: all .22s ease-in-out;
 }
+p{
+	font-size:1.25em;
+	line-height:1.618;
+}
 .site{
-	background: -webkit-repeating-linear-gradient(left, #fafafa, #fafafa 10px, #e4ecf4 10px, #e4ecf4 20px);
-	background: repeating-linear-gradient(to right, #fafafa, #fafafa 10px, #e4ecf4 10px, #e4ecf4 20px);
+	background: -webkit-repeating-linear-gradient(left, #fafafa, #fafafa 10px, #eaeff4 10px, #eaeff4 20px);
+	background: repeating-linear-gradient(to right, #fafafa, #fafafa 10px, #eaeff4 10px, #eaeff4 20px);
 }
 .site-header{
 	background-size:cover !important;
