@@ -1,9 +1,28 @@
 .site-header{
 	background-size:cover !important;
 	background-position:50% !important;
-	height:;
+	position:relative !important;
+}
+.site-header:after{
+	content:' ';
+	width:  270px;
+	height: 360px;
+	background-image: url('https://2016.birmingham.wordcamp.org/files/2016/07/wp-yall.png');
+	background-position:50%;
+	background-size:cover;
+	position:absolute;
+	right:10%;
+	top:60px;
 }
 
 .site-header .home-link{
 	min-height:440px;
+}
+
+.site-title{
+	text-shadow:0 0 64px rgba(255,255,255,.5), 0 0 3px rgba(255,255,255,.75);
+}
+
+.site-description{
+	color:#fafafa;
 }
