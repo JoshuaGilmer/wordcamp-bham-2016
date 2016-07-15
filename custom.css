@@ -6,7 +6,10 @@ a{
 	-o-transition: all .22s ease-in-out;
 	transition: all .22s ease-in-out;
 }
-
+.site{
+	background: -webkit-repeating-linear-gradient(left, #fafafa, #fafafa 10px, #e4ecf4 10px, #e4ecf4 20px);
+	background: repeating-linear-gradient(to right, #fafafa, #fafafa 10px, #e4ecf4 10px, #e4ecf4 20px);
+}
 .site-header{
 	background-size:cover !important;
 	background-position:50% !important;
