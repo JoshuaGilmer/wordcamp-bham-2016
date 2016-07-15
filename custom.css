@@ -34,6 +34,9 @@ a{
 .site-title{
 	text-shadow:0 0 64px rgba(255,255,255,.5), 0 0 3px rgba(255,255,255,.75);
 }
+.site-header .site-title:hover{
+	text-decoration: none !important;
+}
 
 .site-description{
 	color:#fafafa !important;
