@@ -60,4 +60,10 @@ h1.entry-title a{
 	color: #576473;
 	border-left: .125em solid #489a96;
 	margin-bottom: .5em;
+	-webkit-transition: all .22s ease-in-out;
+	-o-transition: all .22s ease-in-out;
+	transition: all .22s ease-in-out;
+}
+h1.entry-title a:hover{
+	color:#c7dc67;
 }
