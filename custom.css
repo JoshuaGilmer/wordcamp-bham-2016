@@ -38,13 +38,23 @@ a{
 .site-description{
 	color:#fafafa !important;
 }
-
+#primary-menu{
+	display: inline-block;
+	padding: 0;
+	position: relative;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
 .navbar{
 	background-color:#489a96;
 }
 
 .nav-menu li a{
 	color:#fafafa;
+	padding: 15px 12px;
 	-webkit-transition: all .22s ease-in-out;
 	-o-transition: all .22s ease-in-out;
 	transition: all .22s ease-in-out;
@@ -74,7 +84,7 @@ h1.entry-title a{
 	transition: all .22s ease-in-out;
 }
 h1.entry-title a:hover{
-	color:#c7dc67;
+	color:#489a96;
 }
 
 .site-footer .sidebar-container{
@@ -89,4 +99,7 @@ h1.entry-title a:hover{
 }
 .site-info a{
 	color:#fafafa;
+}
+.search-form{
+	display:none !important;
 }
