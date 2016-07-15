@@ -91,6 +91,9 @@ h1.entry-title a:hover{
 	color:#489a96;
 	text-decoration:none;
 }
+.entry-content a, .comment-content a{
+	color:#c54d59;
+}
 
 .site-footer .sidebar-container{
 	background-color:#576473;
