@@ -1,3 +1,7 @@
+body{
+	color:#576473;
+}
+
 .site-header{
 	background-size:cover !important;
 	background-position:50% !important;
@@ -43,4 +47,17 @@
 .nav-menu li a:hover{
 	background-color: #c7dc67;
 	color: #489a96;
+}
+
+.entry-meta a, a:visited{
+	color: #489a96;
+}
+h1.entry-title a{
+	background: #c7dc67;
+	padding: .25em .4em;
+	display: block;
+	line-height: 1.2;
+	color: #576473;
+	border-left: .125em solid #489a96;
+	margin-bottom: .5em;
 }
