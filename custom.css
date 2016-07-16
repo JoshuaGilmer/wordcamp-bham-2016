@@ -18,6 +18,7 @@ p{
 	background-size:cover !important;
 	background-position:50% !important;
 	position:relative !important;
+  border-top:3px solid white;
 }
 .site-header > a.home-link{
 	position:relative;
