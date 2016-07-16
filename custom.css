@@ -77,6 +77,7 @@ p{
 
 .nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a{
 	color:#c7dc67;
+  font-weight:900;
 }
 
 .entry-meta a, a:visited{
