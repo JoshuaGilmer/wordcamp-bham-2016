@@ -81,6 +81,14 @@ p{
   font-weight:900;
 }
 
+.widget{
+  color:rgb(87, 100, 115);
+}
+
+.widget h3, .widget a, .widget p{
+  color:white;
+}
+
 .entry-meta a, a:visited{
 	color: #489a96;
 }
