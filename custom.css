@@ -85,8 +85,11 @@ p{
   background-color:rgb(87, 100, 115);
 }
 
-.widget h3, .widget a, .widget p{
+.widget h3, .widget a, .widget p, .widget a:visited{
   color:white;
+}
+.widget a:hover{
+  color:#c7dc67;
 }
 
 .widget input[type="submit"]{
