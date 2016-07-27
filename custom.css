@@ -103,6 +103,9 @@ p{
 .widget input[type="submit"]:hover{
   background:#c7dc67;
 }
+.sponsor-level-title{
+  color:#c7dc67;
+}
 
 .entry-meta a, a:visited{
 	color: #489a96;
