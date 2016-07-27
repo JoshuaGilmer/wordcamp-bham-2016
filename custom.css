@@ -91,6 +91,10 @@ p{
 
 .widget input[type="submit"]{
   background:#489a96;
+  -webkit-transition: all .22s ease-in-out;
+  -o-transition: all .22s ease-in-out;
+  transition: all .22s ease-in-out;
+  border:0;
 }
 
 .widget input[type="submit"]:hover{
