@@ -89,6 +89,14 @@ p{
   color:white;
 }
 
+.widget input[type="submit"]{
+  background:#489a96;
+}
+
+.widget input[type="submit"]:hover{
+  background:#c7dc67;
+}
+
 .entry-meta a, a:visited{
 	color: #489a96;
 }
