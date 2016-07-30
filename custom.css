@@ -11,8 +11,8 @@ p{
 	line-height:1.618;
 }
 .site{
-	background: -webkit-repeating-linear-gradient(left, #fafafa, #fafafa 10px, #eaeff4 10px, #eaeff4 20px);
-	background: repeating-linear-gradient(to right, #fafafa, #fafafa 10px, #eaeff4 10px, #eaeff4 20px);
+	background: -webkit-repeating-linear-gradient(left, #fafafa, #fafafa 10px, #f5f9fc 10px, #f5f9fc 20px);
+	background: repeating-linear-gradient(to right, #fafafa, #fafafa 10px, #f5f9fc 10px, #f5f9fc 20px);
 }
 .site-header{
 	background-size:cover !important;
@@ -128,6 +128,21 @@ h1.entry-title a:hover{
 
 .site-header > a.home-link:hover:after {
   animation: shake 100ms ease-in-out infinite;
+}
+
+.sponsor-logo img{
+  width: 100%;
+  background: rgba(255,255,255,.25);
+  padding: 2em;
+  border: 1px solid #c7dc67;
+}
+.sponsor-level-title{
+  text-transform: uppercase;
+  text-align: center;
+  padding:.25em;
+  color:#fafafa;
+  background:#c7dc67;
+  border: 1px solid rgba(255,255,255,.5);
 }
 
 @keyframes shake {
