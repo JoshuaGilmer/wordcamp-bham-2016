@@ -187,7 +187,7 @@ h1.entry-title a:hover{
   width: 100%;
 }
 #subscribe-email input{
-  width: 100%;
+  width: 100% !important;
   border: 2px solid #c7dc67;
   padding:.5em;
 }
