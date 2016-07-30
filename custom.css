@@ -163,6 +163,9 @@ h1.entry-title a:hover{
   background: rgba(255,255,255,.25);
   padding: 2em;
   border: 1px solid #c7dc67;
+  -webkit-transition: all .22s ease-in-out;
+  -o-transition: all .22s ease-in-out;
+  transition: all .22s ease-in-out;
 }
 .sponsor-logo:hover img{
   background: rgba(255,255,255,.75);
