@@ -81,6 +81,32 @@ p{
   font-weight:900;
 }
 
+.widget{
+  background-color:rgb(87, 100, 115);
+}
+
+.widget h3, .widget a, .widget p, .widget a:visited{
+  color:white;
+}
+.widget a:hover{
+  color:#c7dc67;
+}
+
+.widget input[type="submit"]{
+  background:#489a96;
+  -webkit-transition: all .22s ease-in-out;
+  -o-transition: all .22s ease-in-out;
+  transition: all .22s ease-in-out;
+  border:0;
+}
+
+.widget input[type="submit"]:hover{
+  background:#c7dc67;
+}
+.sponsor-level-title{
+  color:#c7dc67;
+}
+
 .entry-meta a, a:visited{
 	color: #489a96;
 }
