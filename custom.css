@@ -176,7 +176,7 @@ h1.entry-title a:hover{
   line-height:1.125;
 }
 .subscribe-submit{
-  margin-bottom:0;
+  margin-bottom:0 !important;
 }
 
 @keyframes shake {
