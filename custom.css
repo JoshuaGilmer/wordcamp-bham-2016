@@ -164,6 +164,9 @@ h1.entry-title a:hover{
   padding: 2em;
   border: 1px solid #c7dc67;
 }
+.sponsor-logo:hover img{
+  background: rgba(255,255,255,.75);
+}
 .sponsor-level-title{
   text-transform: uppercase;
   text-align: center;
