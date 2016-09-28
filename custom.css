@@ -109,7 +109,7 @@ p{
   color:#c7dc67;
 }
 
-.entry-meta a, a:visited{
+.entry-meta a, a:visited, .entry-content a, .comment-content a, a:visited{
 	color: #cd4b5a;
 }
 h1.entry-title a{
