@@ -110,7 +110,7 @@ p{
 }
 
 .entry-meta a, a:visited{
-	color: #489a96;
+	color: #cd4b5a;
 }
 h1.entry-title a{
 	background: #c7dc67;
@@ -118,14 +118,14 @@ h1.entry-title a{
 	display: block;
 	line-height: 1.2;
 	color: #576473;
-	border-left: .125em solid #489a96;
+	border-left: .125em solid #576676;
 	margin-bottom: .5em;
 	-webkit-transition: all .22s ease-in-out;
 	-o-transition: all .22s ease-in-out;
 	transition: all .22s ease-in-out;
 }
 h1.entry-title a:hover{
-	color:#489a96;
+	color:#576676;
 	text-decoration:none;
 }
 .entry-content a:hover, .comment-content a:hover{
@@ -205,7 +205,13 @@ h1.entry-title a:hover{
   background-color: #cd4b5a;
 }
 .navigation a{
-  color: #cd4b5a;
+  color: white;
+}
+.navigation a:hover{
+  color:#576676;
+}
+.paging-navigation a:hover .meta-nav{
+  background-color: #576676;
 }
 
 @keyframes shake {
