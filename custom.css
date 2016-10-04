@@ -166,7 +166,7 @@ h1.entry-title a:hover{
   -webkit-transition: all .22s ease-in-out;
   -o-transition: all .22s ease-in-out;
   transition: all .22s ease-in-out;
-  max-height:none;
+  max-height:none !important;
 }
 .sponsor-logo:hover img{
   background: rgba(255,255,255,.75);
