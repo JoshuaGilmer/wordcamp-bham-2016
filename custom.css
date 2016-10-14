@@ -214,3 +214,11 @@ h1.entry-title a:hover{
 .paging-navigation a:hover .meta-nav{
   background-color: #576676;
 }
+#primary{
+	min-height:3300px;
+}
+@media (max-width: 999px) {
+	#primary{
+		min-height:100px;
+	}
+}
