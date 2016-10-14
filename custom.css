@@ -217,8 +217,14 @@ h1.entry-title a:hover{
 #primary{
 	min-height:3300px;
 }
+#colophon{
+	margin-top:0 !important;
+}
 @media (max-width: 999px) {
 	#primary{
 		min-height:100px;
+	}
+	#colophon{
+		margin-top:auto !important;
 	}
 }
